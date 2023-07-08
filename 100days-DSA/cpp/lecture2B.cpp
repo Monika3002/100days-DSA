@@ -1,3 +1,4 @@
+
 #include<iostream>
 using namespace std ;
 int main(){
@@ -22,3 +23,4 @@ cout<<29/5<<endl;
 int x=8,y=9;
 cout<<bool(x>y)<<endl;
 }
+
