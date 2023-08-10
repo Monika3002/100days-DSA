@@ -16,7 +16,14 @@ int main(){
     int n;
     cout << "Enter the value of n :" <<endl;
     cin >>n ;
-    for (int i = 0; i<=n ;i++){
+    // for linear printing
+    // for (int i = 0; i<=n ;i++){
+    //   int series= fab(i);
+    //   cout << series << " ";
+    // }
+
+    // for reverse series
+    for (int i = n; i>=0 ; i--){
       int series= fab(i);
       cout << series << " ";
     }
