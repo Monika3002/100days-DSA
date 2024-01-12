@@ -40,6 +40,6 @@ int main(){
         cout<<ans->val<<" ";
         ans=ans->next;
     }
-    cout<<endl;
+    cout<<endl;     
     return 0;
 }
