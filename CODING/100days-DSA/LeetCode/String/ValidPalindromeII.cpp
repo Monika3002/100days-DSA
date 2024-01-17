@@ -47,8 +47,8 @@ public:
         return false;
     }
 };
-int main(){
-    string s="abca";
-    Solution sol;
-    cout<<sol.validPalindrome(s);
-}
+// int main(){
+//     string s="abca";
+//     Solution sol;
+//     cout<<sol.validPalindrome(s);
+// }
