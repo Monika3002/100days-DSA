@@ -16,7 +16,7 @@ public:
         stable_sort(bitCount.begin(), bitCount.end());
         for (int i = 0; i < nums.size(); ++i) {
             if (bitCount[i].second != i) {
-                return false;git 
+                return false;
             }
         }
         return true;
