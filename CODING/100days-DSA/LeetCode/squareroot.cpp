@@ -27,8 +27,3 @@ public:
         
     }
 };
-int main(){
-    Solution s;
-    cout<<s.mySqrt(2147395599);
-    return 0;
-}
