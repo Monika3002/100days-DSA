@@ -27,6 +27,7 @@ public:
     }
 };
 int main(){
+    
     Solution s;
     cout<<s.myAtoi("42");
     return 0;
