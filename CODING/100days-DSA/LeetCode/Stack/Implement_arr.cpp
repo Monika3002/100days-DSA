@@ -49,14 +49,14 @@ public:
 };
 int main(){
     // creation of stack
-    Stack st(5)
+    Stack st(5);
 
     st.push(2);
     st.push(3);
     st.push(7);
 
     
-    cout<<st.top()<<endl;
+    int a=st.top();
     st.pop();
     cout<<st.top()<<endl;
     st.pop();
