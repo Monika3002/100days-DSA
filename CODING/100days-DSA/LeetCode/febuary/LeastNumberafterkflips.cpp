@@ -1,3 +1,4 @@
+
 class Solution {
 public:
     int findLeastNumOfUniqueInts(vector<int>& arr, int k) {
@@ -26,3 +27,4 @@ public:
         return freq.size() - count;
     }
 };
+int
