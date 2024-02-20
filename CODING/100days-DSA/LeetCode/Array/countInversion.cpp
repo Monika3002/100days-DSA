@@ -47,7 +47,7 @@ int numberOfInversions(vector<int> &a, int n) {
     }
 int main(){
         
-        int n = 5;
+        int n = 5 ;
         vector<int> a= { 1, 20, 6, 4, 5 };
         
         cout<<numberOfInversions(a,n);
