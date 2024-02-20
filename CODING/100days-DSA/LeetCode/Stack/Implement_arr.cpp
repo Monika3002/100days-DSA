@@ -8,7 +8,7 @@ public:
 
     Stack (int size){
         this->size=size;
-      arr=new int(size);
+      arr=new int[size];
       top=-1;
     }
 
@@ -31,16 +31,24 @@ public:
         }
     }
 
-    int top(){
-        return arr[top];
+   void peek(){
+        if(top<0){
+            cout<<"Stack is empty"<<endl;
+        }
+        else{
+            cout<< arr[top];
+        }
+        
     }
 
     bool empty(){
         if(top<0){
            cout<<" stack is Empty"<<endl;
+           return true;
         }
         else{
            cout<<" stack is not Empty"<<endl;
+              return false;
 
         }
 
@@ -48,24 +56,17 @@ public:
 
 };
 int main(){
-    // creation of stack
-    Stack st(5);
-
-    st.push(2);
-    st.push(3);
-    st.push(7);
-
-    
-    int a=st.top();
-    st.pop();
-    cout<<st.top()<<endl;
-    st.pop();
-    cout<<st.top()<<endl;
-    st.pop();
-    if(st.empty()){
-        cout<<"Stack is empty"<<endl;
-    }
-    else{
-        cout<<"Stack is not empty"<<endl;
-    }
+    Stack s(5);
+    s.push(1);
+    s.push(2);
+    s.push(3);
+    s.push(4);
+    s.push(5);
+    s.push(6);
+    s.peek();
+    s.pop();
+    cout<<"hkjfhdu0"<<endl;
+   s.peek();
+    s.empty();
+    return 0;
 }
